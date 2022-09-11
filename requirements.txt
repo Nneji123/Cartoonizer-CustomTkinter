@@ -1,0 +1,6 @@
+fastapi[all]
+numpy==1.23.1
+onnxruntime==1.12.1
+Pillow==9.2.0
+opencv_python_headless==4.6.0.66
+protobuf==3.11.3
