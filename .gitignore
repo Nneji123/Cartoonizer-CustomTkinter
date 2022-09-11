@@ -1,3 +1,5 @@
 __pycache__/
 input.png
 output.png
+build/
+dist/

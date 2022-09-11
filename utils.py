@@ -8,7 +8,7 @@ from PIL import Image
 _sess_options = ort.SessionOptions()
 _sess_options.intra_op_num_threads = os.cpu_count()
 MODEL_SESS = ort.InferenceSession(
-    "cartoonizer.onnx", _sess_options, providers=["CPUExecutionProvider"]
+    "model.onnx", _sess_options, providers=["CPUExecutionProvider"]
 )
 
 
