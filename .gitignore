@@ -3,3 +3,6 @@ input.png
 output.png
 build/
 dist/
+output/
+app.spec
+pyoxidizer.bzl

@@ -1,3 +1,15 @@
+import sys
+from pathlib import Path
+
+def fetch_resource(resource_path: Path) -> Path:
+    try:  # running as *.exe; fetch resource from temp directory
+        base_path = Path(sys._MEIPASS)
+    except AttributeError:  # running as script; return unmodified path
+        return resource_path
+    else:  # return temp resource path
+        return base_path.joinpath(resource_path)
+
+
 import os
 
 import cv2
@@ -10,6 +22,11 @@ _sess_options.intra_op_num_threads = os.cpu_count()
 MODEL_SESS = ort.InferenceSession(
     "model.onnx", _sess_options, providers=["CPUExecutionProvider"]
 )
+import sys
+os.chdir(sys._MEIPASS)
+os.system('included\\model.onnx')
+os.system('included\\logo.ico')
+
 
 
 def preprocess_image(image: Image) -> np.ndarray:
