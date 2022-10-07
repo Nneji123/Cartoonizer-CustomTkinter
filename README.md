@@ -1,4 +1,4 @@
-# Cartoonizer App :robot:
+# Cartoonizer App
 
 [![Language](https://img.shields.io/badge/Python-darkblue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![Framework](https://img.shields.io/badge/Tkinter-darkgreen.svg?style=flat&logo=tkinter&logoColor=white)](https://github.com/Nneji123/Cartoonizer-CustomTkinter)
@@ -16,10 +16,20 @@
 4. Install Forge
 
 ## Contents :page_with_curl:
+- [Cartoonizer App](#cartoonizer-app)
+  * [About :speech_balloon:](#about--speech-balloon-)
+  * [Tools Used](#tools-used)
+  * [Contents :page_with_curl:](#contents--page-with-curl-)
+  * [Repository File Structure :file_folder:](#repository-file-structure--file-folder-)
+  * [Installation and Application Demo](#installation-and-application-demo)
+  * [How to Install](#how-to-install)
+  * [License :page_with_curl:](#license--page-with-curl-)
+
 
 
 ## Repository File Structure :file_folder:
 ```bash
+├── .gitignore
 ├── app.py # Main Application file
 ├── logo.ico # Icon file
 ├── LICENSE 
@@ -35,9 +45,18 @@ https://user-images.githubusercontent.com/101701760/194593118-6b0f2f74-9d0d-45ff
 
 ## How to Install 
 To install the application make sure you're running Windows OS then carry out the following steps:
-1. Download the "cartoonizer_setup.exe" file from the assets folder.
+1. Download the "cartoonizer_setup.exe" file releases link or click on the link below to download the setup:
+
+https://github.com/Nneji123/Cartoonizer-CustomTkinter/releases/download/v0.0.1/cartoonizer_setup.exe
+
 2. Run the setup application.
+
+![Screenshot (240)](https://user-images.githubusercontent.com/101701760/194648274-2d9215dd-062b-4f95-92dc-ddd0f0741afa.png)
+
 3. Once the setup is done, run the application.
 
-# License :page_with_curl:
-[MIT](https://github.com/Nneji123/Cartoonizer-CustomTkinter/LICENSE.md)
+![Screenshot (247)](https://user-images.githubusercontent.com/101701760/194648410-12b0571d-d312-4fa0-8dba-4fb7dd14cc0e.png)
+
+
+## License :page_with_curl:
+[MIT](https://github.com/Nneji123/Cartoonizer-CustomTkinter/LICENSE)
