@@ -20,29 +20,24 @@
 
 ## Repository File Structure :file_folder:
 ```bash
-├───.github # Github Workflows
-│   └───workflows
-├── app.json # For Deploying to Heroku
-├── data
-│   └── Rap_lyrics.txt # lyrics file
-├── docker-compose.yml # For Containerization with Docker
-├── Dockerfile
+├── app.py # Main Application file
+├── logo.ico # Icon file
 ├── LICENSE 
 ├── README.md
-├── Procfile # For deploying to Heroku and Railway
+├── model.onnx # ML Model for cartoonizing images.
 ├── requirements.txt
-├── src
-│   ├── bot.py # Tweet bot
-│   ├── __init__.py
-│   ├── server.py # flask server
-├── tests # Tests folder
-    ├── __init__.py
-    └── test_bot.py
-
+├── utils.py # Utility functions.
 ```
 
-## Installation and Demo
-
-
+## Installation and Application Demo
 
 https://user-images.githubusercontent.com/101701760/194593118-6b0f2f74-9d0d-45ff-8c0b-d9c3a9e8edf2.mp4
+
+## How to Install 
+To install the application make sure you're running Windows OS then carry out the following steps:
+1. Download the "cartoonizer_setup.exe" file from the assets folder.
+2. Run the setup application.
+3. Once the setup is done, run the application.
+
+# License :page_with_curl:
+[MIT](https://github.com/Nneji123/Cartoonizer-CustomTkinter/LICENSE.md)
